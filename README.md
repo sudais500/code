@@ -1,34 +1,3 @@
 # code
 <h1>THIS IS MY FIRST PRACTICE GIT AND GITHUB.</h1>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sample Form</title>
-</head>
-<body>
 
-<h2>Sample Form</h2>
-
-<form action="/submit-form" method="post">
-  <div>
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name" required><br>
-  </div>
-  <div>
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br>
-  </div>
-  <div>
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-  </div>
-  <div>
-    <input type="submit" value="Submit">
-  </div>
-</form>
-
-</body>
-</html>
