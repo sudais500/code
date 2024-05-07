@@ -1,28 +1,27 @@
-/* Styles for the form container */
+
 form {
     width: 50%;
     margin: 0 auto;
   }
   
-  /* Styles for form labels */
+ 
   label {
     display: block;
     margin-bottom: 5px;
   }
   
-  /* Styles for form inputs */
+ 
   input[type="text"],
   input[type="email"],
   textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  
-  /* Styles for the submit button */
+ 
   input[type="submit"] {
     background-color: #4CAF50;
     color: white;
